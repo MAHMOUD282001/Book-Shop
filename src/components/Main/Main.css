@@ -1,0 +1,51 @@
+.content{
+    background: #f3e7dd;
+    height: 500px;
+    background: url(../../imgs/2.jpg);
+    width: 100%;
+    background-size: cover;
+    background-position: 40%;
+    border-radius: 20px;
+    position: relative;
+    margin-top: 50px;
+}
+
+.content .inner{
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 50px;
+}
+
+.content .inner h2{
+    font-size: 30px;
+}
+
+.content .inner p{
+    font-size: 17px;
+}
+
+.content .inner button{
+    margin-top: 20px;
+    padding: 10px 40px;
+    background-color: #c2a792;
+    border: none;
+    outline: none;
+    color: #fff;
+    border-radius: 7px;
+}
+
+
+
+@media(max-width:700px){
+    .main .container{
+        padding: 30px;
+    }
+}
+
+@media(max-width:600px){
+    .main .container{
+        padding: 10px;
+    }
+}

@@ -1,0 +1,9 @@
+.book{
+    width: 320px;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.book img{
+    width: 70%;
+}

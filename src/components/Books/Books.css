@@ -1,0 +1,10 @@
+.books{
+    margin-top: 50px;
+}
+
+.books .container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
